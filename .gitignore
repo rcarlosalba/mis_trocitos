@@ -16,6 +16,8 @@
 # Recommended template: Node.gitignore
 .env.local
 .env.production
+/node_modules
+/dist
 # TODO: where does this rule come from?
 docs/_book
 
