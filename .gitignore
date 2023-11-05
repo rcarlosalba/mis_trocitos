@@ -1,0 +1,25 @@
+# Created by https://www.toptal.com/developers/gitignore/api/vue,firebase
+# Edit at https://www.toptal.com/developers/gitignore?templates=vue,firebase
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+
+### Vue ###
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
+.env.local
+.env.production
+# TODO: where does this rule come from?
+docs/_book
+
+# TODO: where does this rule come from?
+test/
+
+# End of https://www.toptal.com/developers/gitignore/api/vue,firebase
